@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Green Points — Bottle Refills</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1> 🌲Green Points </h1>
+  <p>Every bottle refilled plants a tree and saves many lives!</p>
+
+  <div class="card">
+    <input id="name" type="text" placeholder="Student Name">
+    <input id="bottles" type="number" min="1" placeholder="Bottle refills">
+
+    <button onclick="addEntry()">Add</button>
+
+    <h3>Total Green Points: <span id="total">0</span></h3>
+
+    <div class="rewards">
+      <div>🌿 Herbs: <span id="herbs">0</span></div>
+      <div>🌱 Shrubs: <span id="shrubs">0</span></div>
+      <div>🌳 Trees: <span id="trees">0</span></div>
+    </div>
+  </div>
+
+  <h2>Student Activity</h2>
+  <div id="list"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
