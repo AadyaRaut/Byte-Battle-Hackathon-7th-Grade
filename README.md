@@ -3,7 +3,7 @@
 **Theme:** Sustainability @ school
 
 **Website:** HabitTree: Sip n Grow
-Water refill helps in planting of plants
+(Water refill helps in planting of plants)
 
 **Idea for the Logic:-**
 1/2 no. of refills   = no. of plants planted
@@ -15,13 +15,13 @@ Water refill helps in planting of plants
 - Optional classroom leaderboard to reach team goal
 
 ## What the website does
--track each time a student fills thier growth
+-Track each time a student fills thier growth
 -Add Gwowth Point for every refill
 -Plants a tree for each refill(could be a herb, sherb, tree)
 -Display daily/weekly progress and fun sustainability tips
 
 ## Purpose of the project
--to improve ecosystem and greenary 
+-To improve ecosystem and greenery 
 
 ## Technology used
 -HTML
