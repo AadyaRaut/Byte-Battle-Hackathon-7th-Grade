@@ -1,0 +1,47 @@
+body {
+  font-family: Arial;
+  background: #baffc8;
+  padding: 20px;
+  text-align: center;
+}
+
+.card {
+  background: rgb(187, 247, 251);
+  width: 350px;
+  padding: 20px;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin: 6px;
+  border-radius: 6px;
+  border: 1px solid #000000;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #62a9ff;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.rewards div {
+  margin: 6px;
+  font-size: 18px;
+}
+
+.entry {
+  background: #c2fff9;
+  width: 330px;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 8px auto;
+  text-align: left;
+  font-size: 14px;
+}
