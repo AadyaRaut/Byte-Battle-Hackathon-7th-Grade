@@ -15,16 +15,20 @@
 - Optional classroom leaderboard to reach team goal
 
 ## What the website does
--Track each time a student fills thier growth
--Add Gwowth Point for every refill
--Plants a tree for each refill(could be a herb, sherb, tree)
--Display daily/weekly progress and fun sustainability tips
+- Track each time a student fills thier growth
+- Add Growth Point for every refill
+- Plants a tree for each refill(could be a herb, sherb, tree)
+- Display daily/weekly progress and fun sustainability tips
 
 ## Purpose of the project
--To improve ecosystem and greenery 
+- To improve ecosystem and greenery 
 
 ## Technology used
--HTML
--CSS
--JavaScript
--MicroSoft MakeCode Arcade
+- HTML
+- CSS
+- JavaScript
+- MicroSoft MakeCode Arcade
+
+## MakeCode Arcade Demo Usage
+- To see the working demo of the makecode arcade visual, download the mp4 video file
+- The zip file of the same has been loaded  
