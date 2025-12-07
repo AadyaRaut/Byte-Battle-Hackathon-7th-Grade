@@ -12,13 +12,14 @@
 - Every refill= virtual tree growth
 - Makes sustibility fun and rewarding for kids
 - Easy and colourful interface for school use
-- Optional classroom leaderboard to reach team goal
+- Fact cards for users to learn new facts
+- A quiz used to test you based on the facts that can unlock the bottle refill filling option for the user
 
 ## What the website does
 - Track each time a student fills thier growth
 - Add Growth Point for every refill
 - Plants a tree for each refill(could be a herb, sherb, tree)
-- Display daily/weekly progress and fun sustainability tips
+- Display eco facts and a fun reward based quis where the reward allows you to collect your green points
 
 ## Purpose of the project
 - To improve ecosystem and greenery 
