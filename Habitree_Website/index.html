@@ -1,32 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Green Points — Bottle Refills</title>
-  <link rel="stylesheet" href="style.css">
+    <title>Green Points — Bottle Refills</title>
+    <!-- website style-->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <h1> 🌲Green Points </h1>
-  <p>Every bottle refilled plants a tree and saves many lives!</p>
-
-  <div class="card">
-    <input id="name" type="text" placeholder="Student Name">
-    <input id="bottles" type="number" min="1" placeholder="Bottle refills">
-
-    <button onclick="addEntry()">Add</button>
-
-    <h3>Total Green Points: <span id="total">0</span></h3>
-
-    <div class="rewards">
-      <div>🌿 Herbs: <span id="herbs">0</span></div>
-      <div>🌱 Shrubs: <span id="shrubs">0</span></div>
-      <div>🌳 Trees: <span id="trees">0</span></div>
+<!-- website logo-->
+    <div id="loader">
+        <div class="logo-animation">
+            <img src="habittree edited.jpg" alt="Green Points Logo" class="initial-logo">
+        </div>
     </div>
-  </div>
+<!-- main content-->
 
-  <h2>Student Activity</h2>
-  <div id="list"></div>
+    <div id="mainContent" class="hidden"> 
+        <h1> 🌲Green Points </h1>
+        <p>Every bottle refilled plants a tree and saves many lives!</p>
 
-  <script src="script.js"></script>
+        <div class="card">
+            <input id="name" type="text" placeholder="Student Name">
+            <input id="bottles" type="number" min="1" placeholder="Bottle refills">
+<!--quiz button-->
+
+            <button onclick="startQuiz()">Add</button> 
+
+            <h3>Total Green Points: <span id="total">0</span></h3>
+
+            <div class="rewards">
+                <div>🌿 Herbs: <span id="herbs">0</span></div>
+                <div>🌱 Shrubs: <span id="shrubs">0</span></div>
+                <div>🌳 Trees: <span id="trees">0</span></div>
+            </div>
+        </div>
+<!-- fact card-->
+
+        <div id="factCard" class="fact-card-display">
+            <button class="nav-arrow" onclick="changeFact(-1)">&#9664;</button> <div>
+                <h3 id="factTitle">🌿 Did You Know?</h3>
+                <p id="factContent">Refill a bottle to get your first fun fact!</p>
+            </div>
+            <button class="nav-arrow" onclick="changeFact(1)">&#9654;</button> 
+        </div>
+
+        <h2>Student Activity</h2>
+        <div id="list"></div>
+    </div>
+    <!--quiz modal-->
+
+    <div id="quizModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeQuizModal()">&times;</span>
+            <h3>Verification Challenge!</h3>
+            <p id="quizQuestion"></p>
+            <div id="quizOptions">
+                </div>
+            <p id="quizMessage" class="message"></p>
+            <button id="quizContinueButton" style="display:none;" onclick="continueEntry()">Continue</button>
+        </div>
+    </div>
+<!-- script logic-->
+
+    <script src="script.js"></script>
 </body>
 </html>
