@@ -19,7 +19,7 @@
 - Track each time a student fills thier growth
 - Add Growth Point for every refill
 - Plants a tree for each refill(could be a herb, sherb, tree)
-- Display eco facts and a fun reward based quis where the reward allows you to collect your green points
+- Display eco facts and a fun reward based quiz where the reward allows you to collect your green points and see a plant grow
 
 ## Purpose of the project
 - To improve ecosystem and greenery 
